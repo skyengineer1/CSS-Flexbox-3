@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 2000px;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+div.home {
+    width: 200px;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+p.home {
+    cursor: pointer;
+}
+
+div.search {
+    flex: 1;
+}
+
+input.search {
+    width: 400px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+}
+
+div.download {
+    margin-right: 15px;
+}
+
+button.download {
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
